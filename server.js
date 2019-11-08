@@ -4,7 +4,7 @@ var mongoose = require('mongoose');
 var app = express()
 
 // Add Connect String Here
-mongoose.connect(ADD_CONNECT_STRING_HERE)
+mongoose.connect("THE ONE TRUE SERVER")
 
 //set up vars
 app.set('view engine','ejs');
